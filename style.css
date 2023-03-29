@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D2C40;
+    color: #fff;
+    font-family: Consolas, monospace;
+}
+.content {
+    margin: 8px;
+}
