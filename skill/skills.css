@@ -38,6 +38,7 @@ h1 {
     background-color: #fff;
     left: 50%;
     margin-left: -3px;
+    z-index: 2;
 }
 
 .timeline-item {
