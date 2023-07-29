@@ -1,0 +1,35 @@
+@media (prefers-color-scheme: light) {
+    :root  {
+        /* Allgemeine Variablen */
+        --bg-color: #7e9fb6;
+        --fg-color: #506370;
+        /* Zeitleiste in skills.css */
+        --info: #11cdef;
+        --success: #00bf9a;
+        --danger: #fd5d93;
+        --timeline-before-bg : #475580;
+        --timeline-body-bg: #50557a;
+        --timeline-body-round: 6px;
+        --timeline-body-shadow: 1px 3px 9px rgba(0,0,0, .1);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root  {
+        /* Allgemeine Variablen */
+        --bg-color: #0D2C40;
+        --fg-color: #fff;
+
+        /* Zeitleiste in skills.css */
+        --info: #11cdef;
+        --success: #00bf9a;
+        --danger: #fd5d93;
+        --timeline-before-bg : #222a42;
+        --timeline-body-bg: #383a49;
+        --timeline-body-round: 6px;
+        --timeline-body-shadow: 1px 3px 9px rgba(0,0,0, .1);
+
+        /* Programmiersprachen */
+        --lang-bg-color: #061620;
+    }
+}
