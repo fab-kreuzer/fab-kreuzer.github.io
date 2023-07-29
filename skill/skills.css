@@ -1,28 +1,12 @@
-
-*{
-    z-index: 1;
-}
+@import url(../gloabal.css);
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #0D2C40;
-    color: #fff;
+    background-color: var(--bg-color);
+    color: var(--fg-color);
     font-family: Consolas, monospace;
     letter-spacing: 1px;
-}
-/*colors*/
-:root {
-    --primary: #1d8cf8;
-    --secondary: #0D2C40;
-    --info: #11cdef;
-    --success: #00bf9a;
-    --danger: #fd5d93;
-    --timeline-before-bg : #222a42;
-    --timeline-body-bg: #383a49;
-    --timeline-body-round: 6px;
-    --timeline-body-shadow: 1px 3px 9px rgba(0,0,0, .1);
-
 }
 
 /* Headline */
@@ -133,4 +117,16 @@ p {
         }
 
     }
+}
+/* Programmiersprachen */
+.langContainer {
+    width: 100%; 
+    text-align: center; 
+}
+
+.languageDiv {
+    display: inline-block; 
+    width: 16%; 
+    background-color: var(--lang-bg-color);
+    border-radius: 16px;
 }
