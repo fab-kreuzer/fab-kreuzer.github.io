@@ -130,3 +130,13 @@ p {
     background-color: var(--lang-bg-color);
     border-radius: 16px;
 }
+
+@media (max-device-width: 1000px) {
+    .languageDiv {
+        display: inline-block; 
+        width: 33%; 
+        background-color: var(--lang-bg-color);
+        border-radius: 16px;
+        margin: 8px;
+    }
+}
