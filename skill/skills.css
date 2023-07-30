@@ -1,6 +1,6 @@
 @import url(../gloabal.css);
 
-body {
+body section {
     background-color: var(--bg-color);
     color: var(--fg-color);
     letter-spacing: 1px;
