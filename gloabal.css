@@ -2,7 +2,8 @@
     :root  {
         /* Allgemeine Variablen */
         --bg-color: #7e9fb6;
-        --fg-color: #506370;
+        --fg-color: #2b353b;
+
         /* Zeitleiste in skills.css */
         --info: #11cdef;
         --success: #00bf9a;
@@ -11,6 +12,11 @@
         --timeline-body-bg: #50557a;
         --timeline-body-round: 6px;
         --timeline-body-shadow: 1px 3px 9px rgba(0,0,0, .1);
+
+        /* Programmiersprachen */
+        --lang-bg-color: #4a738d;
+        --lang-fg-color: #ffffff;
+
     }
 }
 
@@ -18,7 +24,7 @@
     :root  {
         /* Allgemeine Variablen */
         --bg-color: #0D2C40;
-        --fg-color: #fff;
+        --fg-color: #cccccc;
 
         /* Zeitleiste in skills.css */
         --info: #11cdef;
@@ -32,4 +38,11 @@
         /* Programmiersprachen */
         --lang-bg-color: #061620;
     }
+}
+
+body {
+    font-family: Consolas, monospace;
+    margin: 0;
+    padding: 0;
+
 }
