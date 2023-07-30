@@ -1,9 +1,13 @@
 @import url(../gloabal.css);
 
-body section {
+body {
     background-color: var(--bg-color);
     color: var(--fg-color);
+}
+
+section {
     letter-spacing: 1px;
+
 }
 
 /* Headline */
