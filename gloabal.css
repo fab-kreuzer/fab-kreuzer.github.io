@@ -49,6 +49,7 @@ html, body {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
+    margin-top: 1.6rem;
 }
 
 footer, footer p {
@@ -62,4 +63,11 @@ footer, footer p {
     justify-content: center;
     margin: 0px;
     padding: 0px;
-  }
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+}
